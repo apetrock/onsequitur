@@ -1,11 +1,15 @@
 import React from "react";
-import Three from "./three";
+import ThreeRayMarch from "./three_ray_march";
+import ThreeTextureDiffusion from "./three_rd";
 import "./App.css";
 
 function App() {
   return (
     <div className="app-container">
-      <Three className="Three" />
+      {/*
+      <ThreeRayMarch className="Three" />
+      */}
+      <ThreeTextureDiffusion className="Three" />
     </div>
   );
 }
