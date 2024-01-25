@@ -1,62 +1,46 @@
-# DEPRECATED
-**This project is no longer maintained**, please consider using the following projects instead:
+# Getting Started with Create React App
 
-* [**Vite**](https://vitejs.dev/)
-* [Parcel](https://parceljs.org/)
-* [Create React App](https://create-react-app.dev/)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-# React Webpack Typescript Starter
-> Minimal starter with hot module replacement (HMR) for rapid development.
+In the project directory, you can run:
 
-* **[React](https://facebook.github.io/react/)** (18.x)
-* **[Webpack](https://webpack.js.org/)** (5.x)
-* **[Typescript](https://www.typescriptlang.org/)** (4.x)
-* **[Hot Module Replacement (HMR)](https://webpack.js.org/concepts/hot-module-replacement/)** + [Fast Refresh](https://github.com/pmmmwh/react-refresh-webpack-plugin)
-* Image support
-* [SASS](http://sass-lang.com/) support
-* Production build script
-* Code linting ([ESLint](https://github.com/eslint/eslint)) and formatting ([Prettier](https://github.com/prettier/prettier))
-* Test frameworks ([Jest](https://facebook.github.io/jest/) + [React Testing Library](https://testing-library.com/docs/react-testing-library/intro))
+### `npm start`
 
-## Installation
-1. Clone/download repo
-2. `yarn install` (or `npm install` for npm)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Usage
-**Development**
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-`yarn run start-dev`
+### `npm test`
 
-* Build app continuously (HMR enabled)
-* App served @ `http://localhost:8080`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**Production**
+### `npm run build`
 
-`yarn run start-prod`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* Build app once (HMR disabled) to `/dist/`
-* App served @ `http://localhost:3000`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-**All commands**
+### `npm run eject`
 
-Command | Description
---- | ---
-`yarn run start-dev` | Build app continuously (HMR enabled) and serve @ `http://localhost:8080`
-`yarn run start-prod` | Build app once (HMR disabled) to `/dist/` and serve @ `http://localhost:3000`
-`yarn run build` | Build app to `/dist/`
-`yarn run test` | Run tests
-`yarn run lint` | Run linter
-`yarn run lint --fix` | Run linter and fix issues
-`yarn run start` | (alias of `yarn run start-dev`)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-**Note**: replace `yarn` with `npm` in `package.json` if you use npm.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## See also
-* [Create React App](https://github.com/facebook/create-react-app)
-* [Astro](https://astro.build/)
-* [Vite](https://vitejs.dev/)
-# onsequitur
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

@@ -14,25 +14,25 @@ services:
       - USER_ID=${UID}
       - GROUP_ID=${GID}
       - CHOKIDAR_USEPOLLING=true
-  api:
-    build:
-      context: ./server
-      dockerfile: Dockerfile
-    volumes:
-      - ./server:/app
-    ports:
-      - "5000:5000"
-    depends_on:
-      - db
-    environment:
-      - FLASK_DEBUG=development
-  db:
-    image: postgres
-    volumes:
-      - db-data:/var/lib/postgresql/data/
-    environment:
-      POSTGRES_USER: example_user
-      POSTGRES_PASSWORD: example_password
-      POSTGRES_DB: example_db
+  #api:
+  #  build:
+  #    context: ./server
+  #    dockerfile: Dockerfile
+  #  volumes:
+  #    - ./server:/app
+  #  ports:
+  #    - "5000:5000"
+  #  depends_on:
+  #    - db
+  #  environment:
+  #    - FLASK_DEBUG=development
+  #db:
+  #  image: postgres
+  #  volumes:
+  #    - db-data:/var/lib/postgresql/data/
+  #  environment:
+  #    POSTGRES_USER: example_user
+  #    POSTGRES_PASSWORD: example_password
+  #    POSTGRES_DB: example_db
 volumes:
   db-data:
